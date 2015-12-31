@@ -1,4 +1,5 @@
-layout_spectrum: 0.1086215141694993
+favicon: null
+name: HypNoise
 opengraph:
   image: null
   type: null
@@ -27,14 +28,13 @@ color:
     - '#A3B5C4'
     - '#435365'
   rhythmicContrast: 0.5425532
-typography_spectrum: 0.8640483873896301
-cta:
-  bucket: null
-  version: null
-  domain: null
+typography_spectrum: 0.1978723
+layout_spectrum: 0.1086215141694993
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
-name: HypNoise
+cta:
+  bucket: null
+  version: null
+  domain: null
