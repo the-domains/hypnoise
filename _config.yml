@@ -1,28 +1,40 @@
-name: HypNoise
-favicon: null
-layout_spectrum: 0.10862151416949928
-typography_spectrum: 0.8640483873896301
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.1086215141694993
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.7097490183077753
-  lightness: 0.45358665310777724
-  saturation: 0.5157377591822296
-  rhythmicContrast: 0.09385885298252106
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5157378
+  lightness: 0.4535867
+  brandStrength: 0.7097490183077753
+  brandColors:
+    - '#C5DFE9'
+    - '#38311E'
+    - '#5377A3'
+    - '#A3B5C4'
+    - '#435365'
+  rhythmicContrast: 0.5425532
+typography_spectrum: 0.8640483873896301
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: HypNoise
